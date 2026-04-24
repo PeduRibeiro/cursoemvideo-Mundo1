@@ -1,5 +1,5 @@
-nome = input('Qual seu nome completo?')
+n = str(input('Qual seu nome completo?'))
+nome = n.split()
+print('Seu primeiro nome é {}'.format(nome[0]))
+print('Seu ultimo nome é {}'.format(nome[len(nome)-1]))
 
-nome.split()
-print(nome.split()[0])
-print(nome.split()[2])
