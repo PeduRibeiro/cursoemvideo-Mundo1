@@ -1,9 +1,4 @@
 dist = float(input('Qual a distancia da viagem em Km?'))
-#if dist <= 200:
-    #print('Para essa viagem você ira pagar R${} de passagem'.format(dist*0.50))
-#else:
-   # print('Para essa viagem você ira pagar R${} de passagem'.format(dist*0.45))
-
 if dist <= 200:
     preco = dist*0.50
 else:
